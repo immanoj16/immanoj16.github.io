@@ -1,3 +1,53 @@
-theme: jekyll-theme-architect
-title: Welcome to Manoj's Homepage
-description: Feel free to bookmark this to keep an eye on my project updates.
+# Site settings
+title: Manoj Kumar Maharana
+email: mmaharana14@gmail.com
+url: https://immanoj16.github.io
+description: "Hi I'm Manoj Kumar Maharana and this is my profile. You can bookmark this to keep an eye of my projects"
+skills: "Web Developer"
+meta_author: Manoj Kumar Maharana
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: myshortname
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 1E1E1E #80B3FF
+  primary-rgb: "30, 30, 30" #"128,179,255"
+  secondary: E5193B #FD6E8A
+  secondary-dark: ce1635 #A2122F
+
+# Footer settings
+footer:
+  copyright: Manoj Kumar Maharana
+  location: Location
+  social: Around the Web
+  credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: github
+    url: https://github.com/immanoj16
+  - title: linkedin
+    url: https://www.linkedin.com/in/immanoj16
+  - title: facebook
+    url: https://www.facebook.com/immanoj16
+  - title: instagram
+    url: https://www.instagram.com/immanoj16
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Bangalore , Karnataka
+
+# Build settings
+markdown: kramdown
+permalink: pretty
